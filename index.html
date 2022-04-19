@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<link rel="icon" type="image/png" href="assets/img/logo.png" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Leo Torres - Frontend</title>
+		<!-- NORMALIZE -->
+		<link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css" />
+		<!-- REMIX ICON -->
+		<link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet" />
+		<!-- CSS STYLES -->
+		<link rel="stylesheet" href="/assets/styles/styles.css" />
+	</head>
+	<body>
+		<!--========== HEADER PROFILE ===========-->
+		<header class="profile container">
+			<!-- THEME BUTTON -->
+			<i class="ri-moon-line change-theme" id="theme-button"></i>
+
+			<div class="profile__container grid">
+				<div class="profile__data">
+					<div class="profile__border">
+						<div class="profile__perfil">
+							<img src="/assets/img/fotoFB.jpg" class="imagen" alt="" />
+						</div>
+					</div>
+
+					<h2 class="profile__name">Leonardo Torres</h2>
+					<h3 class="profile__profession">Web Developer</h3>
+					<ul class="profile__social">
+						<a href="https://www.instagram.com/torres_leo24/" target="_blank" class="profile__social-link"
+							><i class="ri-instagram-line"></i
+						></a>
+						<a
+							href="https://www.linkedin.com/in/leo-torres-solorzano/"
+							target="_blank"
+							class="profile__social-link"
+							><i class="ri-linkedin-box-fill"></i
+						></a>
+						<a href="https://github.com/torres-leo" target="_blank" class="profile__social-link"
+							><i class="ri-github-fill"></i
+						></a>
+					</ul>
+				</div>
+
+				<div class="profile__info grid">
+					<div class="profile__info-group">
+						<h3 class="profile__info-number">2</h3>
+						<p class="profile__info-description">
+							Years <br />
+							Work
+						</p>
+					</div>
+					<div class="profile__info-group">
+						<h3 class="profile__info-number">+20</h3>
+						<p class="profile__info-description">
+							Completed
+							<br />
+							Projects
+						</p>
+					</div>
+					<div class="profile__info-group">
+						<h3 class="profile__info-number">96</h3>
+						<p class="profile__info-description">
+							Satisfied <br />
+							customers
+						</p>
+					</div>
+				</div>
+
+				<div class="profile__buttons">
+					<a download="" href="/assets/pdf/CV-Leo-Torres.pdf" class="button"
+						>Download CV <i class="ri-download-cloud-2-line"></i
+					></a>
+
+					<div class="profile__buttons-small">
+						<a
+							href="https://api.whatsapp.com/send?phone=50589923583&text=¡Hello!"
+							target="_blank"
+							class="button button__small button__gray"
+							><i class="ri-whatsapp-line"></i
+						></a>
+						<a href="https://m.me/Leo.Torres24" target="_blank" class="button button__small button__gray"
+							><i class="ri-messenger-line"></i
+						></a>
+						<a
+							href="mailto:leo_torres24@hotmail.com"
+							target="_blank"
+							class="button button__small button__gray"
+							><i class="ri-mail-line"></i
+						></a>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<main class="main">
+			<section class="filters container">
+				<ul class="filters__content">
+					<button class="filters__button filter-tab-active" data-target="#projects">Projects</button>
+					<button class="filters__button" data-target="#skills">Skills</button>
+				</ul>
+
+				<div class="filters__sections">
+					<!-- PROJECTS -->
+					<div class="projects__content grid filters__active" data-content id="projects">
+						<article class="projects__card">
+							<img src="/assets/img/project1.jpg" alt="" class="projects__img" />
+							<div class="projects__modal">
+								<div>
+									<span class="projects__subtitle">Web</span>
+									<h3 class="projects__title">Pet Hospital</h3>
+									<a
+										href="https://veterinaria-react-leo-torres.netlify.app/"
+										target="_blank"
+										class="projects__button button button__small"
+										><i class="ri-link-m"></i
+									></a>
+								</div>
+							</div>
+						</article>
+
+						<article class="projects__card">
+							<img src="/assets/img/project2.jpg" alt="" class="projects__img" />
+							<div class="projects__modal">
+								<div>
+									<span class="projects__subtitle">Web</span>
+									<h3 class="projects__title">Cryptocurrencies</h3>
+									<a
+										href="https://control-presupuesto-leo-torres.netlify.app/"
+										target="_blank"
+										class="projects__button button button__small"
+										><i class="ri-link-m"></i
+									></a>
+								</div>
+							</div>
+						</article>
+
+						<article class="projects__card">
+							<img src="/assets/img/project3.jpg" alt="" class="projects__img" />
+							<div class="projects__modal">
+								<div>
+									<span class="projects__subtitle">Web</span>
+									<h3 class="projects__title">Budget Control</h3>
+									<a
+										href="https://criptomoneda-react-leo-torres.netlify.app/"
+										target="_blank"
+										class="projects__button button button__small"
+										><i class="ri-link-m"></i
+									></a>
+								</div>
+							</div>
+						</article>
+
+						<article class="projects__card">
+							<img src="/assets/img/project4.jpg" alt="" class="projects__img" />
+							<div class="projects__modal">
+								<div>
+									<span class="projects__subtitle">Web</span>
+									<h3 class="projects__title">XHDERBEZ</h3>
+									<a href="" class="projects__button button button__small"
+										><i class="ri-link-m"></i
+									></a>
+								</div>
+							</div>
+						</article>
+					</div>
+
+					<!-- SKILLS -->
+					<div class="skills__content grid" data-content id="skills">
+						<div class="skills__area">
+							<h3 class="skills__title">Front-End</h3>
+							<div class="skills__box">
+								<div class="skills__group">
+									<div class="skills__data">
+										<i class="ri-checkbox-circle-line"></i>
+										<div>
+											<h3 class="skills__name">HTML5</h3>
+											<span class="skills__level">Intermediate</span>
+										</div>
+									</div>
+
+									<div class="skills__data">
+										<i class="ri-checkbox-circle-line"></i>
+										<div>
+											<h3 class="skills__name">CSS3</h3>
+											<span class="skills__level">Intermediate</span>
+										</div>
+									</div>
+
+									<div class="skills__data">
+										<i class="ri-checkbox-circle-line"></i>
+										<div>
+											<h3 class="skills__name">JavaScript</h3>
+											<span class="skills__level">Intermediate</span>
+										</div>
+									</div>
+
+									<div class="skills__data">
+										<i class="ri-checkbox-circle-line"></i>
+										<div>
+											<h3 class="skills__name">React.js</h3>
+											<span class="skills__level">Intermediate</span>
+										</div>
+									</div>
+
+									<div class="skills__data">
+										<i class="ri-checkbox-circle-line"></i>
+										<div>
+											<h3 class="skills__name">Vue.js</h3>
+											<span class="skills__level">Intermediate</span>
+										</div>
+									</div>
+								</div>
+
+								<div class="skills__group">
+									<div class="skills__data">
+										<i class="ri-checkbox-circle-line"></i>
+										<div>
+											<h3 class="skills__name">GIT</h3>
+											<span class="skills__level">Intermediate</span>
+										</div>
+									</div>
+
+									<div class="skills__data">
+										<i class="ri-checkbox-circle-line"></i>
+										<div>
+											<h3 class="skills__name">TailwindCSS</h3>
+											<span class="skills__level">Intermediate</span>
+										</div>
+									</div>
+
+									<div class="skills__data">
+										<i class="ri-checkbox-circle-line"></i>
+										<div>
+											<h3 class="skills__name">Bootstrap</h3>
+											<span class="skills__level">Intermediate</span>
+										</div>
+									</div>
+
+									<div class="skills__data">
+										<i class="ri-checkbox-circle-line"></i>
+										<div>
+											<h3 class="skills__name">Sass</h3>
+											<span class="skills__level">Intermediate</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- BACKEND -->
+						<div class="skills__area">
+							<h3 class="skills__title">Back-End</h3>
+							<div class="skills__box">
+								<div class="skills__group">
+									<div class="skills__data">
+										<i class="ri-checkbox-circle-line"></i>
+										<div>
+											<h3 class="skills__name">Node.js</h3>
+											<span class="skills__level">Intermediate</span>
+										</div>
+									</div>
+
+									<div class="skills__data">
+										<i class="ri-checkbox-circle-line"></i>
+										<div>
+											<h3 class="skills__name">PHP</h3>
+											<span class="skills__level">Basic</span>
+										</div>
+									</div>
+
+									<div class="skills__data">
+										<i class="ri-checkbox-circle-line"></i>
+										<div>
+											<h3 class="skills__name">MySQL</h3>
+											<span class="skills__level">Basic</span>
+										</div>
+									</div>
+								</div>
+
+								<div class="skills__group">
+									<div class="skills__data">
+										<i class="ri-checkbox-circle-line"></i>
+										<div>
+											<h3 class="skills__name">SQL Server</h3>
+											<span class="skills__level">Basic</span>
+										</div>
+									</div>
+
+									<div class="skills__data">
+										<i class="ri-checkbox-circle-line"></i>
+										<div>
+											<h3 class="skills__name">MongoDB</h3>
+											<span class="skills__level">Intermediate</span>
+										</div>
+									</div>
+								</div>
+								<!--  -->
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<footer class="footer container">
+			<p class="footer__copy">&#169; Leo Torres. All rigths reserved</p>
+			<p class="year"></p>
+		</footer>
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script src="https://unpkg.com/scrollreveal"></script>
+		<script src="assets/js/main.js"></script>
+		<!-- <script src="assets/js/script.js"></script> -->
+	</body>
+</html>
