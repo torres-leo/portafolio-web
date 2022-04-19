@@ -326,6 +326,12 @@ body.dark-theme {
 	height: 100%;
 }
 
+.projects__img {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+
 .projects__modal {
 	position: absolute;
 	width: 100%;
