@@ -18,6 +18,11 @@ h3 {
 	-webkit-animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out;
 	animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out;
 }
+
+.dark-theme .sk-cube-grid .sk-cube {
+	background-color: #cfcfcf;
+}
+
 .sk-cube-grid .sk-cube1 {
 	-webkit-animation-delay: 0.2s;
 	animation-delay: 0.2s;
