@@ -13,8 +13,8 @@
   */
 
 	--hue: 207;
-	--sat: 90%;
-	--lig: 61%;
+	--sat: 85%;
+	--lig: 40%;
 	--first-color: hsl(var(--hue), var(--sat), var(--lig));
 	--first-color-alt: hsl(var(--hue), var(--sat), 57%); /* -4% */
 	--title-color: hsl(var(--hue), 12%, 15%);
@@ -22,7 +22,7 @@
 	--text-color-light: hsl(var(--hue), 8%, 75%);
 	--text-color-lighten: hsl(var(--hue), 8%, 92%);
 	--body-color: hsl(var(--hue), 100%, 99%);
-	--container-color: #fff;
+	--container-color: #e1e1e1;
 
 	/*========== Font and typography ==========*/
 	/*.5rem = 8px | 1rem = 16px ...*/
@@ -432,6 +432,7 @@ body.dark-theme {
 	margin: 2rem 0 2rem;
 	text-align: center;
 	font-size: var(--smaller-font-size);
+	font-weight: 700;
 	color: var(--text-color-light);
 }
 
@@ -439,6 +440,8 @@ body.dark-theme {
 	text-align: center;
 	margin: 0 0 1rem;
 	font-size: var(--small-font-size);
+	font-style: italic;
+	font-weight: 600;
 }
 
 .dark-theme .footer__copy {
