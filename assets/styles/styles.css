@@ -79,6 +79,10 @@ img {
 	height: auto;
 }
 
+footer {
+	margin: 0 0 2rem;
+}
+
 /*=============== THEME ===============*/
 .change-theme {
 	position: absolute;
