@@ -584,3 +584,7 @@ body.dark-theme {
 	gap: 1rem;
 	align-items: center;
 }
+
+.block {
+	grid-column: 1 / 4;
+}
